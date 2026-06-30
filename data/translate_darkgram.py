@@ -61,7 +61,7 @@ SAVE_EVERY_N_ROWS = 1  # write progress to disk after every row processed
 # To sanity-check the model name, API connection, and translation
 # quality BEFORE running the full ~440-row batch and spending the full
 # ~1,968 API calls.
-TEST_MODE = True
+TEST_MODE = False
 TEST_MODE_ROW_LIMIT = 5  # number of non-English threads to process in test mode
 
 # When TEST_MODE is on, output goes to a separate file so it never
