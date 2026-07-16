@@ -42,7 +42,7 @@ import json
 import time
 import pandas as pd
 from dotenv import load_dotenv
-from openai import OpenAI  # VERIFY this import matches your installed openai package version
+from openai import OpenAI
 
 # ---------------------------------------------------------------------------
 # CONFIG
@@ -152,12 +152,10 @@ def main(client_fn=None, limit=None):
         done = pd.DataFrame()
         done_idx = set()
 
-    msg_col = "Message_Translated" if "Message_Translated" in df.columns else "Message"
-    reply_col = (
-        "Combined_Replies_Translated"
-        if "Combined_Replies_Translated" in df.columns
-        else "Combined Replies"
-    )
+    df["_effective_message"] = df["Message_Translated"].combine_first(df["Message"])
+    df["_effective_replies"] = df["Combined_Replies_Translated"].combine_first(df["Combined Replies"])
+    msg_col = "_effective_message"
+    reply_col = "_effective_replies"
 
     results = []
     for idx, row in df.iterrows():
