@@ -80,7 +80,7 @@ def call_llm(system_prompt, conversation_history, role_label, max_retries=2):
             time.sleep(1)
             continue
 
-        raw = resp.choices[0].message.content
+        raw = resp.choices[0].message.content or resp.choices[0].message.refusal
         last_raw = raw
         if raw is None:
             finish_reason = resp.choices[0].finish_reason
@@ -114,8 +114,20 @@ def run_conversation(persona_row, max_turns=MAX_TURNS):
     scammer_system = build_scammer_system_prompt(starting_info)
 
     json_instruction = '\n\nRespond with ONLY valid JSON in exactly this format: {"message": "<your chat message>", "status": "<see your role instructions for valid status values>"}'
-    victim_system_full = victim_system + json_instruction + \
-    '\nValid status values: "continue", "suspicious", "blocked", "complied"'
+
+    victim_status_criteria = '''
+    Valid status values, and exactly when to use each one:
+    - "continue": your default status - use this for most turns, while the conversation feels like normal, comfortable getting-to-know-you conversation.
+    - "suspicious": use this once something has started to feel off to you - e.g. they're asking for money or financial details, pushing you to make a decision quickly, mentioning an investment/opportunity,
+    or being evasive about meeting in person or verifying who they are. You can stay in "suspicious" for multiple turns while you're still engaging but wary.
+    - "blocked": use this the turn you decide to stop responding/end contact with this person, because your suspicion has crossed a threshold your personality would find
+    unacceptable (e.g. they've directly asked for money, or the inconsistenciesare too much). This ends the conversation.
+    "complied": use this the turn you actually agree to a concrete action they've asked for - e.g. agreeing to send money, share financial/account details, or invest in something they've proposed. 
+    This ends the conversation.
+    Base WHEN you move between these on the personality profile above, not on a fixed script - a low-agreeableness or high-neuroticism person might move to "suspicious" faster than a high-agreeableness person, for example.
+    '''
+
+    victim_system_full = victim_system + json_instruction + victim_status_criteria
     scammer_system_full = scammer_system + json_instruction + \
     '\nValid status values: "hook", "vetting", "closure_attempt"'
 
