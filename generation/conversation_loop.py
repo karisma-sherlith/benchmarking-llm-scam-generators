@@ -34,12 +34,14 @@ import os
 import json
 import time
 import pandas as pd
+from dotenv import load_dotenv
 from openai import OpenAI
 from prompts import build_victim_system_prompt, build_scammer_starting_info, build_scammer_system_prompt
 
 MODEL = "gpt-4.1-mini-2025-04-14"
 MAX_TURNS = 20
 
+load_dotenv()
 client = OpenAI(
     api_key = os.getenv("ELM_API_KEY"),
     base_url = "https://api.openai.com/v1",
@@ -48,9 +50,9 @@ client = OpenAI(
 """Models wrap JSON IN ```json...``` sometimes even when asked not to"""
 def _strip_code_fences(text):
     text = text.strip()
-    if text.startwith("```"):
+    if text.startswith("```"):
         lines = text.split("\n")
-        lines = [line for line in lines if not line.strip().startwith("```")]
+        lines = [line for line in lines if not line.strip().startswith("```")]
         text = "\n".join(lines).strip()
     return text
 
@@ -80,6 +82,12 @@ def call_llm(system_prompt, conversation_history, role_label, max_retries=2):
 
         raw = resp.choices[0].message.content
         last_raw = raw
+        if raw is None:
+            finish_reason = resp.choices[0].finish_reason
+            print(f"[{role_label}] Got None content. finish_reason={finish_reason}")
+            print(f"[{role_label}] Full response object: {resp}")
+            time.sleep(0.5)
+            continue
         cleaned = _strip_code_fences(raw)
 
         try:

@@ -51,7 +51,7 @@ def build_victim_system_prompt(persona_row):
     BACKGROUND (flavor/context - secondary to the personality traits above):
     - Professional: {persona_row['professional_persona']}
     - Finance/spending habits: {persona_row['finance_persona']}
-    - Hobbies: {persona_row['hobbies_an_interests']}
+    - Hobbies: {persona_row['hobbies_and_interests']}
 
     CONTEXT: You've been messaging with someone you matched with on a dating app.
     You do not know this person in real life yet.
