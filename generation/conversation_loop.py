@@ -4,7 +4,7 @@ Structured Turns: each turn, both models return
 {"message":.... , "status":....}
 So that the loop knows when to stop.
 Else if a max turn is set, conversation could still run if victim already disengaged.
-Wasiting API calls.
+Wasting API calls.
 
 VICTIM STATUS:
     - continue: normal back and forth, keep going
