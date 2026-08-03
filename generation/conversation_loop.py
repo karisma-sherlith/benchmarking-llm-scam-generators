@@ -39,7 +39,9 @@ from openai import OpenAI
 from prompts import build_victim_system_prompt, build_scammer_starting_info, build_scammer_system_prompt
 
 MODEL = "gpt-4.1-mini-2025-04-14"
-MAX_TURNS = 20
+MAX_TURNS = 30  # CHANGING MAX TURNS FROM 20 TO 30 FOR FINAL GENERATION
+
+TOTAL_USAGE = {"prompt_tokens": 0, "completion_tokens": 0, "calls": 0}  # TO TRACK API CALL USAGE
 
 load_dotenv()
 client = OpenAI(
@@ -79,6 +81,11 @@ def call_llm(system_prompt, conversation_history, role_label, max_retries=2):
             print(f"[{role_label}] API Call failed (attempt {attempt+1}): {e}")
             time.sleep(1)
             continue
+
+        # TO TRACK API CALL USAGE 
+        TOTAL_USAGE["prompt_tokens"] += resp.usage.prompt_tokens
+        TOTAL_USAGE["completion_tokens"] += resp.usage.completion_tokens
+        TOTAL_USAGE["calls"] += 1
 
         raw = resp.choices[0].message.content or resp.choices[0].message.refusal
         last_raw = raw
@@ -172,21 +179,31 @@ def run_conversation(persona_row, max_turns=MAX_TURNS):
 
 """
 Loads 12 persona sample and runs 1 conversation for test
-Later 3-5 runs for each persona
+For final conversation batch generation, 5 runs for each persona
 """
 def main():
     personas = pd.read_csv("persona_sample_12.csv")
     results = []
     for _, persona_row in personas.iterrows():
-        print(f"Running conversation for persona {persona_row['uuid']}...")
-        result = run_conversation(persona_row)
-        results.append(result)
-        print(f"    -> ended: {result['ended_reason']} after {result['total_turns']} turns")
+        # RUNNING 5 RUNS PER PERSONA
+        for run_number in range(1,6):
+            print(f"Running conversation for persona {persona_row['uuid']}, run{run_number}...")
+            result = run_conversation(persona_row)
+            result["run_number"] = run_number
+            results.append(result)
+            print(f"    -> ended: {result['ended_reason']} after {result['total_turns']} turns")
 
-    with open ("conversation_test_batch.json","w") as f:
+    # SAVING FINAL FULL BATCH TO 'conversation_full_batch.json'
+    with open ("conversation_full_batch.json","w") as f:
         json.dump(results, f, indent=2)
-    print("Saved conversations_test_batch.json")
+    print("Saved conversations_full_batch.json")
 
+    # PRINTING ACTUAL API COST
+    input_cost = TOTAL_USAGE["prompt_tokens"] / 1_000_000 * 0.40
+    output_cost = TOTAL_USAGE["completion_tokens"] / 1_000_000 * 1.6
+    print(f"Total API Calls: {TOTAL_USAGE['calls']}")
+    print(f"Total Tokens: {TOTAL_USAGE['prompt_tokens']} in, {TOTAL_USAGE['completion_tokens']} out")
+    print(f"Estimated Cost: ${input_cost + output_cost:.4f}")
 
 if __name__ == "__main__":
     main()
