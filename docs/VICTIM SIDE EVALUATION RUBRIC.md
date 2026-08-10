@@ -62,7 +62,7 @@ I initially thought of having a third dimension to check whether the refusal to 
 
 
 
-**NOT YET COVERED**
+##### **NOT YET COVERED**
 
 * Scammer side rubric (phase transitions, tactic tagging) - next step.
 * How turn level codes aggregate into a conversation-level summary.
@@ -70,7 +70,7 @@ I initially thought of having a third dimension to check whether the refusal to 
 
 
 
-**VALIDATION PLAN**
+##### **VALIDATION PLAN**
 
 A subset of judge-coded turns will be manually re-coded independently using this same rubric and agreement will be reported using Cohen's Kappa rather than raw match percentage, since kappa accounts for agreement expected by chance.
 
