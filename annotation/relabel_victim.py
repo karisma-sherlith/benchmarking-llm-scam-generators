@@ -26,7 +26,7 @@ client = OpenAI(
 )
 
 RUBRIC_PROMPT = """
-You are annotatinh one turn of a synthetic pig-butchering scam conversation,
+You are annotating one turn of a synthetic pig-butchering scam conversation,
 for academic research purposes. You will see the full conversation so far,
 ending with the VICTIM turn you need to label.
 
@@ -35,7 +35,7 @@ Label this turn on two INDEPENDENT dimensions:
 SUSPICION LEVEL - "none" / "mild" / "high":
 - none: normal conversation, no scam-relevant content or wariness.
 - mild: a first sign of caution - a polite deflection, changing subject away from money once, a soft boundary.
-- high: explicit, clearly-stated wariness - directly naming discomfort, repeated firm refusal, or questioning the other person's legitimacy.
+- high: explicit, clearly-stated wariness - directly naming discomfort (e.g. I am not comfortable discussing this etc.), repeated firm refusals, or questioning the other person's legitimacy.
 
 IMPORTANT: suspicion can go up OR down across the conversation - do not assume
 it must stay high once reached. Only increase the level from the previous victim turn if you see ONE of these:
@@ -53,7 +53,7 @@ ENGAGEMENT LEVEL - "avoidant" / "neutral" / "curious" / "soft_compliance" / "har
 - hard_compliance: agrees to an actual financial action (sending money, sharing financial/account details, confirming an investment).
 
 Respond with ONLY valid JSON in exactly this format:
-{{"suspicion_level"}: "none"|"mild"|"high", "engagement_level": "avoidant"|"neutral"|"curious"|"soft_compliance"|"hard_compliance",
+{{"suspicion_level": "none"|"mild"|"high", "engagement_level": "avoidant"|"neutral"|"curious"|"soft_compliance"|"hard_compliance",
 "rationale": "<one sentence, max 20 words>"}}
 
 CONVERSATION SO FAR (ending with the turn to label):
@@ -140,7 +140,7 @@ def main():
             context = build_context_string(transcript, i)
             labels = relabel_turn(context)
             turn["relabel_suspicion"]  = labels["suspicion_level"]
-            turn["relabel_engagement"] = labels["engagement_levl"]
+            turn["relabel_engagement"] = labels["engagement_level"]
             turn["relabel_rationale"] = labels.get("rationale")
 
     with open(OUTPUT_FILE, "w") as f:
