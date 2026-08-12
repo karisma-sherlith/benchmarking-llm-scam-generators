@@ -35,10 +35,10 @@ ending with the SCAMMER turn you need to label.
 Label this turn on THREE dimensions:
 
 PHASE - "hook" / "vetting" / "closure_attempt" / "neutral_conversation":
-- hook: actively building rapport/trust, presentic as a genuine interest.
-- vetting: learning more about the targey and/or beginning to introduce the investment opportunity.
+- hook: actively building rapport/trust, presenting as a genuine interest.
+- vetting: learning more about the target and/or beginning to introduce the investment opportunity.
 - closure_attempt: actively pushing for a concrete commitment (money, financial details, joining a platform).
-- neutral_conversation: replying to something the victim raised, or general conversation, with no rapport-building or investment intetn either way.
+- neutral_conversation: replying to something the victim raised, or general conversation, with no rapport-building or investment-advancing intent either way.
 
 PRESSURE DIRECTION - "escalating" / "steady" / "de-escalating":
 Compare this turn's intensity to the scammer's PREVIOUS turn, not the conversation as a whole.
@@ -158,6 +158,8 @@ def main():
             turn["relabel_pressure"] = labels["pressure_direction"]
             turn["relabel_tactics"] = labels.get("tactic_tags", [])
             turn["relabel_rationale"] = labels.get("rationale")
+
+        compute_retreats(transcript)
 
     with open(OUTPUT_FILE, "w") as f:
         json.dump(conversations, f, indent=2)
