@@ -143,7 +143,7 @@ def main():
     with open(INPUT_FILE) as f:
         conversations = json.load(f)
 
-    conversations = conversations[:2] # TEMPORARY TEST LIMIT
+    # conversations = conversations[:2]    TEMPORARY TEST LIMIT
 
     for conv in conversations:
         transcript = conv["transcript"]
