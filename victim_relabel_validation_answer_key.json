@@ -1,0 +1,258 @@
+[
+  {
+    "review_id": 1,
+    "persona_uuid": "50bc1d81-37b3-4b19-94b2-8cc429d6dff6",
+    "run_number": 2,
+    "sampled_turn": 14,
+    "relabel_suspicion": "mild",
+    "relabel_engagement": "neutral"
+  },
+  {
+    "review_id": 2,
+    "persona_uuid": "05d360b1-730b-40ef-ad05-5e660f508c32",
+    "run_number": 4,
+    "sampled_turn": 20,
+    "relabel_suspicion": "none",
+    "relabel_engagement": "curious"
+  },
+  {
+    "review_id": 3,
+    "persona_uuid": "50ffb81e-5c9e-48d7-a312-f7c23ce90838",
+    "run_number": 5,
+    "sampled_turn": 13,
+    "relabel_suspicion": "high",
+    "relabel_engagement": "avoidant"
+  },
+  {
+    "review_id": 4,
+    "persona_uuid": "31ad5165-2233-4791-81c5-05b88e8ced9e",
+    "run_number": 4,
+    "sampled_turn": 13,
+    "relabel_suspicion": "none",
+    "relabel_engagement": "soft_compliance"
+  },
+  {
+    "review_id": 5,
+    "persona_uuid": "50ffb81e-5c9e-48d7-a312-f7c23ce90838",
+    "run_number": 3,
+    "sampled_turn": 23,
+    "relabel_suspicion": "mild",
+    "relabel_engagement": "avoidant"
+  },
+  {
+    "review_id": 6,
+    "persona_uuid": "50bc1d81-37b3-4b19-94b2-8cc429d6dff6",
+    "run_number": 1,
+    "sampled_turn": 8,
+    "relabel_suspicion": "high",
+    "relabel_engagement": "neutral"
+  },
+  {
+    "review_id": 7,
+    "persona_uuid": "5ee84b2e-98d4-44dc-9e6f-a5a369c36c12",
+    "run_number": 5,
+    "sampled_turn": 7,
+    "relabel_suspicion": "mild",
+    "relabel_engagement": "curious"
+  },
+  {
+    "review_id": 8,
+    "persona_uuid": "266f8c14-127b-4635-9fdf-7445cd381cfc",
+    "run_number": 5,
+    "sampled_turn": 26,
+    "relabel_suspicion": "none",
+    "relabel_engagement": "soft_compliance"
+  },
+  {
+    "review_id": 9,
+    "persona_uuid": "18bcda3d-eccc-4e8c-aaab-940f547ada36",
+    "run_number": 3,
+    "sampled_turn": 16,
+    "relabel_suspicion": "high",
+    "relabel_engagement": "avoidant"
+  },
+  {
+    "review_id": 10,
+    "persona_uuid": "05d360b1-730b-40ef-ad05-5e660f508c32",
+    "run_number": 2,
+    "sampled_turn": 4,
+    "relabel_suspicion": "mild",
+    "relabel_engagement": "curious"
+  },
+  {
+    "review_id": 11,
+    "persona_uuid": "0b0041b8-dd53-4c78-ad85-f312d832522c",
+    "run_number": 2,
+    "sampled_turn": 1,
+    "relabel_suspicion": "none",
+    "relabel_engagement": "neutral"
+  },
+  {
+    "review_id": 12,
+    "persona_uuid": "50ffb81e-5c9e-48d7-a312-f7c23ce90838",
+    "run_number": 4,
+    "sampled_turn": 8,
+    "relabel_suspicion": "high",
+    "relabel_engagement": "soft_compliance"
+  },
+  {
+    "review_id": 13,
+    "persona_uuid": "0b0f8f2b-7634-4c51-b8d2-2cde27420da8",
+    "run_number": 3,
+    "sampled_turn": 25,
+    "relabel_suspicion": "mild",
+    "relabel_engagement": "avoidant"
+  },
+  {
+    "review_id": 14,
+    "persona_uuid": "0b0f8f2b-7634-4c51-b8d2-2cde27420da8",
+    "run_number": 1,
+    "sampled_turn": 9,
+    "relabel_suspicion": "none",
+    "relabel_engagement": "curious"
+  },
+  {
+    "review_id": 15,
+    "persona_uuid": "5ee84b2e-98d4-44dc-9e6f-a5a369c36c12",
+    "run_number": 4,
+    "sampled_turn": 7,
+    "relabel_suspicion": "high",
+    "relabel_engagement": "neutral"
+  },
+  {
+    "review_id": 16,
+    "persona_uuid": "4448c8e7-3363-405e-92c1-571510bb470a",
+    "run_number": 4,
+    "sampled_turn": 15,
+    "relabel_suspicion": "mild",
+    "relabel_engagement": "soft_compliance"
+  },
+  {
+    "review_id": 17,
+    "persona_uuid": "50ffb81e-5c9e-48d7-a312-f7c23ce90838",
+    "run_number": 1,
+    "sampled_turn": 23,
+    "relabel_suspicion": "none",
+    "relabel_engagement": "neutral"
+  },
+  {
+    "review_id": 18,
+    "persona_uuid": "05d360b1-730b-40ef-ad05-5e660f508c32",
+    "run_number": 5,
+    "sampled_turn": 21,
+    "relabel_suspicion": "high",
+    "relabel_engagement": "avoidant"
+  },
+  {
+    "review_id": 19,
+    "persona_uuid": "534031b6-c902-4b63-be91-71d09571b0ad",
+    "run_number": 1,
+    "sampled_turn": 3,
+    "relabel_suspicion": "none",
+    "relabel_engagement": "curious"
+  },
+  {
+    "review_id": 20,
+    "persona_uuid": "0b0041b8-dd53-4c78-ad85-f312d832522c",
+    "run_number": 3,
+    "sampled_turn": 19,
+    "relabel_suspicion": "mild",
+    "relabel_engagement": "soft_compliance"
+  },
+  {
+    "review_id": 21,
+    "persona_uuid": "18bcda3d-eccc-4e8c-aaab-940f547ada36",
+    "run_number": 4,
+    "sampled_turn": 4,
+    "relabel_suspicion": "high",
+    "relabel_engagement": "neutral"
+  },
+  {
+    "review_id": 22,
+    "persona_uuid": "18bcda3d-eccc-4e8c-aaab-940f547ada36",
+    "run_number": 1,
+    "sampled_turn": 30,
+    "relabel_suspicion": "mild",
+    "relabel_engagement": "curious"
+  },
+  {
+    "review_id": 23,
+    "persona_uuid": "1d7e079d-cc92-47ea-9369-ea170a6799d5",
+    "run_number": 1,
+    "sampled_turn": 26,
+    "relabel_suspicion": "none",
+    "relabel_engagement": "soft_compliance"
+  },
+  {
+    "review_id": 24,
+    "persona_uuid": "0b0f8f2b-7634-4c51-b8d2-2cde27420da8",
+    "run_number": 5,
+    "sampled_turn": 13,
+    "relabel_suspicion": "high",
+    "relabel_engagement": "avoidant"
+  },
+  {
+    "review_id": 25,
+    "persona_uuid": "266f8c14-127b-4635-9fdf-7445cd381cfc",
+    "run_number": 4,
+    "sampled_turn": 5,
+    "relabel_suspicion": "mild",
+    "relabel_engagement": "curious"
+  },
+  {
+    "review_id": 26,
+    "persona_uuid": "31ad5165-2233-4791-81c5-05b88e8ced9e",
+    "run_number": 3,
+    "sampled_turn": 6,
+    "relabel_suspicion": "mild",
+    "relabel_engagement": "soft_compliance"
+  },
+  {
+    "review_id": 27,
+    "persona_uuid": "1d7e079d-cc92-47ea-9369-ea170a6799d5",
+    "run_number": 4,
+    "sampled_turn": 28,
+    "relabel_suspicion": "mild",
+    "relabel_engagement": "neutral"
+  },
+  {
+    "review_id": 28,
+    "persona_uuid": "534031b6-c902-4b63-be91-71d09571b0ad",
+    "run_number": 2,
+    "sampled_turn": 6,
+    "relabel_suspicion": "mild",
+    "relabel_engagement": "avoidant"
+  },
+  {
+    "review_id": 29,
+    "persona_uuid": "05d360b1-730b-40ef-ad05-5e660f508c32",
+    "run_number": 1,
+    "sampled_turn": 22,
+    "relabel_suspicion": "none",
+    "relabel_engagement": "curious"
+  },
+  {
+    "review_id": 30,
+    "persona_uuid": "0b0f8f2b-7634-4c51-b8d2-2cde27420da8",
+    "run_number": 4,
+    "sampled_turn": 1,
+    "relabel_suspicion": "none",
+    "relabel_engagement": "neutral"
+  },
+  {
+    "review_id": 31,
+    "persona_uuid": "0b0f8f2b-7634-4c51-b8d2-2cde27420da8",
+    "run_number": 2,
+    "sampled_turn": 12,
+    "relabel_suspicion": "high",
+    "relabel_engagement": "avoidant"
+  },
+  {
+    "review_id": 32,
+    "persona_uuid": "5ee84b2e-98d4-44dc-9e6f-a5a369c36c12",
+    "run_number": 2,
+    "sampled_turn": 9,
+    "relabel_suspicion": "mild",
+    "relabel_engagement": "soft_compliance"
+  }
+]
