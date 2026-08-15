@@ -94,12 +94,12 @@ def run_survival_analysis(df, duration_col, observed_col, group_col, label):
     print(f"\nTime to {label} onset by {group_col}")
     groups = df[group_col].unique()
 
-    kmf = KaplanMeierFitter
+    kmf = KaplanMeierFitter()
     medians = {}
 
     for group in groups:
         sub = df[df[group_col] == group]
-        kmf.fit(sub[duration_col], event_observed = sub[observed_col], label = str(group))
+        kmf.fit(sub[duration_col], event_observed=sub[observed_col], label =str(group))
         medians[group] = kmf.median_survival_time_
         print(f"    {group}: n={len(sub)}, events={sub[observed_col].sum()}, median turns to event={kmf.median_survival_time_}")
 
@@ -134,7 +134,7 @@ def main():
     with open(RELABELED_FILE) as f:
         conversations = json.load(f)
 
-    persona_traits = load_persona_traits
+    persona_traits = load_persona_traits()
     df = build_conversation_metrics(conversations, persona_traits)
     df.to_csv("victim_conversation_metrics.csv", index=False)
     print(f"Built metrics for {len(df)} conversations, saved to 'victim_conversation_metrics.csv'")
