@@ -1,0 +1,1281 @@
+[
+  {
+    "persona_uuid": "0b0041b8-dd53-4c78-ad85-f312d832522c",
+    "transcript": [
+      {
+        "turn": 1,
+        "speaker": "scammer",
+        "message": "Hey! I couldn\u2019t help but notice you\u2019re an aerospace engineer\u2014that\u2019s seriously impressive. I\u2019ve always been fascinated by space and tech. How did you get into that field?",
+        "status": "hook",
+        "relabel_phase": "hook",
+        "relabel_pressure": "steady",
+        "relabel_tactics": [
+          "trust_building"
+        ],
+        "relabel_rationale": "Scammer builds rapport by complimenting and showing genuine interest in victim's profession."
+      },
+      {
+        "turn": 1,
+        "speaker": "victim",
+        "message": "Hey! Thanks, I appreciate that. I've always been curious about how things fly and work, especially rockets and propulsion. It started as a childhood fascination with space and just kept growing through school. What about you? Any interests in science or tech?",
+        "status": "continue",
+        "relabel_suspicion": "none",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim responds normally without any mention or indication of suspicion or financial topics."
+      },
+      {
+        "turn": 2,
+        "speaker": "scammer",
+        "message": "That\u2019s awesome, childhood passions really do shape us! I\u2019m really into tech too, especially how smart investments can launch someone\u2019s future\u2014kind of like rocket science but for finances. What\u2019s the most exciting project you\u2019ve worked on lately?",
+        "status": "hook",
+        "relabel_phase": "hook",
+        "relabel_pressure": "steady",
+        "relabel_tactics": [
+          "trust_building"
+        ],
+        "relabel_rationale": "Continuing rapport by linking interests and complimenting, building trust without investment mention yet."
+      },
+      {
+        "turn": 2,
+        "speaker": "victim",
+        "message": "I like that comparison\u2014rocket science and smart investing both need careful planning and a bit of patience. Recently, I\u2019ve been working on improving propulsion efficiency for small satellites, which is pretty exciting since it could make space missions more affordable. What kind of tech or investments are you into?",
+        "status": "continue",
+        "relabel_suspicion": "none",
+        "relabel_engagement": "curious",
+        "relabel_rationale": "Victim shows genuine interest and asks about scammer's interests without any wariness."
+      },
+      {
+        "turn": 3,
+        "speaker": "scammer",
+        "message": "Improving satellite propulsion sounds cutting-edge! I\u2019ve been focusing on emerging tech stocks and some crypto projects that have real potential to disrupt industries. It\u2019s like being part of a new space race, but in the financial world. Do you ever think about investing your earnings, or do you prefer to keep it safe?",
+        "status": "hook",
+        "relabel_phase": "vetting",
+        "relabel_pressure": "steady",
+        "relabel_tactics": [
+          "trust_building"
+        ],
+        "relabel_rationale": "Maintains rapport while gently probing victim's interest in investing, using relatable space-tech analogy."
+      },
+      {
+        "turn": 3,
+        "speaker": "victim",
+        "message": "I can see the appeal of that 'financial space race' vibe. I do invest, but I tend to stick with a balanced approach\u2014mostly stocks and bonds that feel stable over the long haul. Crypto seems exciting but a bit too unpredictable for me right now. How do you decide which projects or stocks are worth your trust?",
+        "status": "continue",
+        "relabel_suspicion": "none",
+        "relabel_engagement": "curious",
+        "relabel_rationale": "Victim shows genuine interest and asks about investment decisions without expressing wariness."
+      },
+      {
+        "turn": 4,
+        "speaker": "scammer",
+        "message": "That\u2019s a smart approach, especially with your background\u2014it\u2019s all about balancing risk and reward. I have a system that combines deep research with some insider insights I\u2019ve picked up over time. It\u2019s helped me spot some opportunities before they hit mainstream. If you\u2019re interested, I could share some of these insights with you\u2014it\u2019s like having a co-pilot in this financial journey. What do you think?",
+        "status": "vetting",
+        "relabel_phase": "vetting",
+        "relabel_pressure": "escalating",
+        "relabel_tactics": [
+          "authority",
+          "trust_building"
+        ],
+        "relabel_rationale": "Scammer introduces insider knowledge and offers help, increasing investment interest and rapport."
+      },
+      {
+        "turn": 4,
+        "speaker": "victim",
+        "message": "I appreciate the offer and it sounds like you\u2019ve got a good handle on things. I\u2019m always open to learning, but I prefer taking things slow when it comes to finances. Maybe we can chat more about it as we get to know each other better?",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim politely defers financial discussion, showing cautious openness without commitment."
+      },
+      {
+        "turn": 5,
+        "speaker": "scammer",
+        "message": "Absolutely, I respect that\u2014taking it slow is the best way to build confidence. I\u2019m really enjoying our conversations so far; it feels great to connect with someone who shares an appreciation for thoughtful planning. By the way, when you\u2019re not engineering rockets or satellites, what do you like to do for fun?",
+        "status": "vetting",
+        "relabel_phase": "neutral_conversation",
+        "relabel_pressure": "de-escalating",
+        "relabel_tactics": [
+          "trust_building"
+        ],
+        "relabel_rationale": "Shifts focus to casual topics, reinforcing rapport and respecting victim's pace without investment pressure."
+      },
+      {
+        "turn": 5,
+        "speaker": "victim",
+        "message": "I'm glad to hear that\u2014it\u2019s nice to connect on that level. When I\u2019m not working, I enjoy hiking with my wife, especially around Hocking Hills. It\u2019s a good way to clear my head and enjoy some quiet time in nature. I also like playing guitar occasionally, though I\u2019m more of a casual player than anything. How about you? What do you like to do when you have free time?",
+        "status": "continue",
+        "relabel_suspicion": "none",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim discusses personal interests without addressing or showing wariness about financial topics."
+      },
+      {
+        "turn": 6,
+        "speaker": "scammer",
+        "message": "Hocking Hills sounds beautiful\u2014I love hiking too, especially spots that let you disconnect and recharge. Playing guitar casually sounds fun; I\u2019ve always wanted to learn. When I\u2019m off, I\u2019m usually exploring new restaurants or diving into books about finance and tech. It\u2019s a great way to unwind and stay sharp. Do you find music helps you relax after a long day?",
+        "status": "hook",
+        "relabel_phase": "neutral_conversation",
+        "relabel_pressure": "steady",
+        "relabel_tactics": [],
+        "relabel_rationale": "The scammer responds to victim's hobbies with no investment or rapport-building push, maintaining casual tone."
+      },
+      {
+        "turn": 6,
+        "speaker": "victim",
+        "message": "Absolutely, music is a great way to unwind. Even if I\u2019m not very skilled, just playing a few chords helps me switch off from work stress. Exploring new restaurants sounds fun too\u2014I\u2019m always up for trying something different. Any favorite spots you\u2019ve discovered recently?",
+        "status": "continue",
+        "relabel_suspicion": "none",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim engages in casual conversation without any mention of finances or suspicion."
+      },
+      {
+        "turn": 7,
+        "speaker": "scammer",
+        "message": "Definitely! There\u2019s this little place downtown that mixes international flavors in a way that\u2019s totally unexpected but delicious. Maybe we could check it out together sometime? I\u2019d love to hear more about your hiking adventures and share some stories too.",
+        "status": "hook",
+        "relabel_phase": "hook",
+        "relabel_pressure": "de-escalating",
+        "relabel_tactics": [
+          "trust_building"
+        ],
+        "relabel_rationale": "Shifts to casual, friendly invitation to build rapport without investment pressure or urgency."
+      },
+      {
+        "turn": 7,
+        "speaker": "victim",
+        "message": "That sounds like a great idea. I\u2019d enjoy that\u2014good food and good company make for a perfect combo. Let\u2019s plan for a time that works for both of us. Looking forward to swapping stories and getting to know you better.",
+        "status": "continue",
+        "relabel_suspicion": "none",
+        "relabel_engagement": "soft_compliance",
+        "relabel_rationale": "Victim agrees to meet socially, showing no wariness and engaging positively with the scammer."
+      },
+      {
+        "turn": 8,
+        "speaker": "scammer",
+        "message": "I\u2019m really looking forward to it too\u2014it\u2019s rare to find someone who appreciates both adventure and good conversation. By the way, since we\u2019re both into thoughtful planning, have you ever considered how your investments could grow faster with the right strategy? I\u2019ve been working with a few exclusive opportunities that have been delivering impressive returns lately.",
+        "status": "vetting",
+        "relabel_phase": "vetting",
+        "relabel_pressure": "escalating",
+        "relabel_tactics": [
+          "authority",
+          "urgency"
+        ],
+        "relabel_rationale": "Introduces exclusive investment opportunities with impressive returns, increasing pressure to engage financially."
+      },
+      {
+        "turn": 8,
+        "speaker": "victim",
+        "message": "I appreciate you sharing that, and it\u2019s great you\u2019ve found some success. I tend to be cautious with investments and prefer to stick with what I understand well. I\u2019d like to keep our conversations focused on getting to know each other for now, if that\u2019s okay.",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim politely sets a boundary to avoid investment talk, showing initial caution without outright refusal."
+      },
+      {
+        "turn": 9,
+        "speaker": "scammer",
+        "message": "Of course, I totally get that\u2014building trust is key before anything else. I\u2019m really enjoying our connection and learning about your world. Whenever you feel comfortable, I\u2019d be happy to share more about those opportunities. No rush at all.",
+        "status": "vetting",
+        "relabel_phase": "neutral_conversation",
+        "relabel_pressure": "de-escalating",
+        "relabel_tactics": [],
+        "relabel_rationale": "Scammer backs off investment talk, focuses on rapport and comfort, matching victim's request to slow down."
+      },
+      {
+        "turn": 9,
+        "speaker": "victim",
+        "message": "Thanks for understanding, I really appreciate that. I\u2019m enjoying our conversations too\u2014it\u2019s nice to take things at a comfortable pace and just get to know each other. What\u2019s something you\u2019ve been curious about lately, whether tech-related or just life in general?",
+        "status": "continue",
+        "relabel_suspicion": "none",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim expresses comfort and interest in general topics without addressing investment or showing wariness."
+      },
+      {
+        "turn": 10,
+        "speaker": "scammer",
+        "message": "Lately, I\u2019ve been really intrigued by how AI is transforming industries\u2014it\u2019s like the next frontier, much like space was to you. Besides tech, I\u2019m curious about what drives people\u2019s passions and how those passions shape their futures. What about you? Any new interests or dreams you\u2019re exploring these days?",
+        "status": "vetting",
+        "relabel_phase": "neutral_conversation",
+        "relabel_pressure": "de-escalating",
+        "relabel_tactics": [],
+        "relabel_rationale": "The scammer shifts to general conversation about interests, backing off investment talk to build rapport."
+      },
+      {
+        "turn": 10,
+        "speaker": "victim",
+        "message": "AI is definitely fascinating\u2014its potential feels huge, and it\u2019s exciting to see how it can complement engineering and innovation. Lately, I\u2019ve been thinking more about how to balance work with personal growth, like improving my guitar skills and spending more time outdoors with my wife. It\u2019s a bit of a juggling act, but those things keep me grounded. What about you? How do you balance your interests with everything else going on?",
+        "status": "continue",
+        "relabel_suspicion": "none",
+        "relabel_engagement": "curious",
+        "relabel_rationale": "Victim shows genuine interest in personal balance and asks a related question, no wariness expressed."
+      },
+      {
+        "turn": 11,
+        "speaker": "scammer",
+        "message": "That balance sounds really healthy, especially with such meaningful activities. For me, it\u2019s about setting clear priorities and making time for what fuels me\u2014whether it\u2019s learning something new or just relaxing. Speaking of growth, if you ever want, I could show you how some smart financial moves might free up more time for the things you love. No pressure, just sharing what\u2019s worked for me.",
+        "status": "vetting",
+        "relabel_phase": "vetting",
+        "relabel_pressure": "steady",
+        "relabel_tactics": [
+          "trust_building"
+        ],
+        "relabel_rationale": "Gently offering investment help while emphasizing no pressure and sharing personal success to build trust."
+      },
+      {
+        "turn": 11,
+        "speaker": "victim",
+        "message": "I appreciate you offering to share that, and it\u2019s great that you\u2019ve found something that helps you. For now, I\u2019d like to keep our focus on getting to know each other personally. If that changes down the line, I\u2019ll be sure to let you know.",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim politely deflects financial talk, emphasizing personal connection and slow pace without outright refusal."
+      },
+      {
+        "turn": 12,
+        "speaker": "scammer",
+        "message": "Absolutely, I respect that and really enjoy where this is going between us. Whenever the time feels right, I\u2019ll be here to share anything you want to know. Meanwhile, what\u2019s a dream trip you\u2019ve always wanted to take? Maybe something adventurous like a space-themed getaway?",
+        "status": "vetting",
+        "relabel_phase": "neutral_conversation",
+        "relabel_pressure": "de-escalating",
+        "relabel_tactics": [],
+        "relabel_rationale": "The scammer shifts to casual conversation about travel dreams, backing off investment talk to build rapport."
+      },
+      {
+        "turn": 12,
+        "speaker": "victim",
+        "message": "That sounds like a fun question! I\u2019ve always dreamed of visiting Cape Canaveral to see a rocket launch in person\u2014it feels like being part of something bigger. An adventurous trip for me would probably be hiking in the Rockies or maybe even a stargazing trip somewhere remote. How about you? Any dream destinations on your list?",
+        "status": "continue",
+        "relabel_suspicion": "none",
+        "relabel_engagement": "curious",
+        "relabel_rationale": "Victim engages naturally, sharing interests without any sign of wariness or financial discussion."
+      },
+      {
+        "turn": 13,
+        "speaker": "scammer",
+        "message": "Cape Canaveral must be incredible, especially witnessing a launch live\u2014that\u2019s a memory for a lifetime! The Rockies and stargazing sound perfect for recharging too. I\u2019ve always wanted to explore Iceland for its stunning landscapes and maybe catch the Northern Lights. There's something magical about places that make you feel connected to the universe, don\u2019t you think?",
+        "status": "vetting",
+        "relabel_phase": "neutral_conversation",
+        "relabel_pressure": "de-escalating",
+        "relabel_tactics": [],
+        "relabel_rationale": "The scammer responds to the victim's travel interests without pushing investment or rapport-building further."
+      },
+      {
+        "turn": 13,
+        "speaker": "victim",
+        "message": "Absolutely, those kinds of experiences really put things into perspective and make you feel connected in a profound way. Iceland sounds incredible\u2014I've heard the Northern Lights are breathtaking. It\u2019s amazing how nature can inspire both awe and calm at the same time.",
+        "status": "continue",
+        "relabel_suspicion": "none",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim engages normally about travel and nature without any financial or suspicious content."
+      },
+      {
+        "turn": 14,
+        "speaker": "scammer",
+        "message": "Exactly, nature has that amazing power to reset our minds. Speaking of resetting and growth, I\u2019ve been involved with an exclusive investment group that\u2019s been helping people build real financial freedom alongside their passions. It\u2019s not your typical stuff\u2014more like a tailored approach that fits individual goals. If you ever want, I could share some insights, no strings attached. Just something to keep in mind as you think about your future.",
+        "status": "vetting",
+        "relabel_phase": "vetting",
+        "relabel_pressure": "escalating",
+        "relabel_tactics": [
+          "authority",
+          "trust_building"
+        ],
+        "relabel_rationale": "Introducing exclusive investment group and tailored approach to build financial freedom, increasing pitch intensity."
+      },
+      {
+        "turn": 14,
+        "speaker": "victim",
+        "message": "I really appreciate you thinking of me and sharing that. Right now, I\u2019m more comfortable focusing on building our connection and learning about each other. I hope you understand\u2014it\u2019s important for me to take things step by step.",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim politely deflects investment talk, emphasizing relationship-building and pacing without outright refusal."
+      },
+      {
+        "turn": 15,
+        "speaker": "scammer",
+        "message": "I completely respect that, and I\u2019m really enjoying getting to know you better. Whenever you feel ready, I\u2019m here to share whenever you want. For now, what\u2019s a hobby or interest you\u2019ve always wanted to try but haven\u2019t yet?",
+        "status": "vetting",
+        "relabel_phase": "neutral_conversation",
+        "relabel_pressure": "de-escalating",
+        "relabel_tactics": [],
+        "relabel_rationale": "The scammer shifts to casual conversation, respecting the victim's pace without investment pressure."
+      },
+      {
+        "turn": 15,
+        "speaker": "victim",
+        "message": "Thanks for understanding. I\u2019ve always thought it would be interesting to try rock climbing\u2014seems like a great mix of challenge and adventure. It\u2019s something I haven\u2019t gotten around to yet but would love to explore someday. How about you? Any new hobbies on your radar?",
+        "status": "continue",
+        "relabel_suspicion": "none",
+        "relabel_engagement": "curious",
+        "relabel_rationale": "Victim shows genuine interest in hobbies and shares personal thoughts without mentioning finances or distrust."
+      },
+      {
+        "turn": 16,
+        "speaker": "scammer",
+        "message": "Rock climbing sounds like an amazing challenge\u2014great way to push limits and enjoy the outdoors. I\u2019ve been thinking about picking up sailing lately; it\u2019s a whole different kind of adventure and requires some serious skill and strategy. Speaking of challenges, sometimes the right mindset and resources can really accelerate how we tackle new goals. If you ever want, I know a few ways to give your plans an extra boost.",
+        "status": "vetting",
+        "relabel_phase": "vetting",
+        "relabel_pressure": "escalating",
+        "relabel_tactics": [
+          "authority",
+          "trust_building"
+        ],
+        "relabel_rationale": "Scammer hints at exclusive knowledge and offers help to accelerate goals, increasing investment pressure."
+      },
+      {
+        "turn": 16,
+        "speaker": "victim",
+        "message": "I appreciate you offering that, and it\u2019s clear you\u2019ve got a lot of valuable insights. For now, I\u2019d prefer to keep things focused on getting to know each other personally. I hope that makes sense.",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim politely declines investment talk again, showing cautious boundary without direct distrust."
+      },
+      {
+        "turn": 17,
+        "speaker": "scammer",
+        "message": "Absolutely, I respect your pace and really value the connection we're building. Whenever you feel comfortable, I\u2019m here to share whenever you want. Meanwhile, what\u2019s one place you\u2019ve always wanted to travel to, just for the experience?",
+        "status": "vetting",
+        "relabel_phase": "neutral_conversation",
+        "relabel_pressure": "de-escalating",
+        "relabel_tactics": [],
+        "relabel_rationale": "The scammer shifts to casual conversation, respecting the victim's boundaries without investment pressure."
+      },
+      {
+        "turn": 17,
+        "speaker": "victim",
+        "message": "One place I've always wanted to visit is Japan. The blend of tradition and cutting-edge technology fascinates me, and I think experiencing that culture firsthand would be really inspiring. How about you? Any destinations that have captured your imagination?",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "curious",
+        "relabel_rationale": "Victim engages with travel topic but maintains personal focus, avoiding investment discussion."
+      },
+      {
+        "turn": 18,
+        "speaker": "scammer",
+        "message": "Japan sounds incredible\u2014such a rich mix of old and new. I\u2019ve always been drawn to places like Switzerland, where the natural beauty meets precision and innovation, kind of like your aerospace world. It\u2019s amazing how different places can inspire us in unique ways. Speaking of inspiration, sometimes the right financial moves can open doors to those dream trips sooner than expected. If you ever want to explore how, I\u2019d be happy to share some ideas.",
+        "status": "vetting",
+        "relabel_phase": "vetting",
+        "relabel_pressure": "steady",
+        "relabel_tactics": [
+          "authority",
+          "trust_building"
+        ],
+        "relabel_rationale": "Scammer gently introduces investment ideas with insider knowledge, maintaining rapport without pressing for commitment."
+      },
+      {
+        "turn": 18,
+        "speaker": "victim",
+        "message": "I appreciate you sharing that, and it\u2019s great you\u2019ve found a path that works for you. For now, I\u2019d really like to keep our conversations centered on getting to know each other better. I hope you understand where I\u2019m coming from.",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim politely deflects investment talk, emphasizing personal connection and boundaries without direct refusal."
+      },
+      {
+        "turn": 19,
+        "speaker": "scammer",
+        "message": "I completely understand and respect that. Getting to know each other is the best foundation. So, what\u2019s a favorite memory from your hiking trips with your wife? I\u2019d love to hear what makes those moments special for you.",
+        "status": "vetting",
+        "relabel_phase": "neutral_conversation",
+        "relabel_pressure": "de-escalating",
+        "relabel_tactics": [],
+        "relabel_rationale": "The scammer shifts to a personal question, backing off investment talk to maintain rapport."
+      },
+      {
+        "turn": 19,
+        "speaker": "victim",
+        "message": "One of my favorite memories was a quiet morning hike where we caught the sunrise over the cliffs at Hocking Hills. It felt peaceful and like a little escape from the usual rush. Sharing those simple moments really brings us closer. Do you have any special memories from your outdoor adventures?",
+        "status": "continue",
+        "relabel_suspicion": "none",
+        "relabel_engagement": "curious",
+        "relabel_rationale": "Victim shares a personal story and asks a genuine question, showing interest without wariness."
+      },
+      {
+        "turn": 20,
+        "speaker": "scammer",
+        "message": "That sunrise sounds absolutely magical\u2014those peaceful moments really do stick with you. One of my favorite memories is hiking up to a secluded lake during a trip to the Rockies; the calm water reflecting the mountains felt like a perfect pause from everything. It\u2019s those experiences that remind me how important it is to have the freedom to enjoy life fully. By the way, building that kind of freedom often ties back to smart planning, including financially. Whenever you\u2019re ready, I\u2019d love to share some ideas that have helped me and others create more time for what matters.",
+        "status": "vetting",
+        "relabel_phase": "vetting",
+        "relabel_pressure": "steady",
+        "relabel_tactics": [
+          "trust_building"
+        ],
+        "relabel_rationale": "Scammer gently reintroduces investment talk while reinforcing rapport and shared values, maintaining steady pressure."
+      },
+      {
+        "turn": 20,
+        "speaker": "victim",
+        "message": "I really appreciate you sharing that, and it\u2019s clear you\u2019ve put a lot of thought into it. For now, I\u2019d like to keep our focus on building our connection and enjoying these conversations. I hope that\u2019s okay with you.",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim politely deflects financial talk, emphasizing connection without outright refusal or distrust."
+      },
+      {
+        "turn": 21,
+        "speaker": "scammer",
+        "message": "Absolutely, I completely respect that and really value the connection we're building. Let\u2019s keep enjoying these great conversations. What\u2019s something new you\u2019ve learned or discovered recently that surprised or inspired you?",
+        "status": "vetting",
+        "relabel_phase": "neutral_conversation",
+        "relabel_pressure": "de-escalating",
+        "relabel_tactics": [],
+        "relabel_rationale": "The scammer responds to the victim's prompt with general conversation, pausing investment talk and easing pressure."
+      },
+      {
+        "turn": 21,
+        "speaker": "victim",
+        "message": "Lately, I\u2019ve been diving into some new propulsion research that's exploring alternative fuels. It\u2019s surprising how much potential there is for cleaner, more efficient engines. It\u2019s inspiring to think about how these advances could shape the future of space travel. What about you? Any recent discoveries that caught your interest?",
+        "status": "continue",
+        "relabel_suspicion": "none",
+        "relabel_engagement": "curious",
+        "relabel_rationale": "Victim shares genuine interest in propulsion research and asks a reciprocal question, showing engagement without wariness."
+      },
+      {
+        "turn": 22,
+        "speaker": "scammer",
+        "message": "That sounds fascinating\u2014alternative fuels could really change the game for aerospace and beyond. Recently, I\u2019ve been exploring some innovative financial strategies that focus on sustainable, tech-driven companies. It\u2019s amazing how smart investments can align with future-forward industries. Speaking of which, have you ever thought about how your financial goals could support your passions and adventures?",
+        "status": "vetting",
+        "relabel_phase": "vetting",
+        "relabel_pressure": "steady",
+        "relabel_tactics": [
+          "authority",
+          "trust_building"
+        ],
+        "relabel_rationale": "Scammer gently probes financial goals, linking investments to passions while maintaining rapport and offering insider knowledge."
+      },
+      {
+        "turn": 22,
+        "speaker": "victim",
+        "message": "I appreciate you sharing that perspective, and it\u2019s great that you\u2019ve found a way to align your interests with your investments. For now, I\u2019m more comfortable focusing on getting to know each other personally before diving into financial discussions. I hope you understand.",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim politely deflects financial talk, setting a soft boundary without explicit distrust or refusal."
+      },
+      {
+        "turn": 23,
+        "speaker": "scammer",
+        "message": "I totally get that, and I really enjoy where this is heading between us. When you're ready, I\u2019ll be here to share anything you want. Meanwhile, what\u2019s a personal goal or dream you\u2019re excited about these days?",
+        "status": "vetting",
+        "relabel_phase": "neutral_conversation",
+        "relabel_pressure": "de-escalating",
+        "relabel_tactics": [],
+        "relabel_rationale": "The scammer shifts to personal conversation, backing off from investment talk to build rapport."
+      },
+      {
+        "turn": 23,
+        "speaker": "victim",
+        "message": "Thanks for asking. Lately, I\u2019ve been focused on improving my guitar skills and planning some more outdoor trips with my wife. It\u2019s those small personal goals that help keep life balanced and meaningful. What about you? Anything you\u2019re excited about these days?",
+        "status": "continue",
+        "relabel_suspicion": "none",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim responds normally, no mention of discomfort or financial topics, just shares personal goals."
+      },
+      {
+        "turn": 24,
+        "speaker": "scammer",
+        "message": "Those sound like wonderful goals\u2014music and nature really do keep the soul grounded. Lately, I\u2019ve been excited about exploring new ways to grow both personally and financially, finding balance between the two. Speaking of growth, when the time feels right, I\u2019d love to share some insights that could help you make your passions more financially rewarding.",
+        "status": "vetting",
+        "relabel_phase": "vetting",
+        "relabel_pressure": "steady",
+        "relabel_tactics": [
+          "trust_building"
+        ],
+        "relabel_rationale": "Maintains rapport while gently introducing financial growth ideas without pressing for commitment."
+      },
+      {
+        "turn": 24,
+        "speaker": "victim",
+        "message": "I appreciate your offer and your enthusiasm. For now, I\u2019d like to keep things focused on building our connection and personal conversations. I hope that makes sense to you.",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim politely deflects financial topics, maintaining boundaries without direct refusal or distrust."
+      },
+      {
+        "turn": 25,
+        "speaker": "scammer",
+        "message": "Absolutely, I respect your pace and really enjoy our conversations. Let\u2019s keep getting to know each other. What\u2019s a favorite way you like to spend a weekend when you have no plans?",
+        "status": "vetting",
+        "relabel_phase": "neutral_conversation",
+        "relabel_pressure": "de-escalating",
+        "relabel_tactics": [],
+        "relabel_rationale": "The scammer responds to the victim's question with casual, personal conversation, pausing investment talk."
+      },
+      {
+        "turn": 25,
+        "speaker": "victim",
+        "message": "On weekends with no plans, I usually enjoy a mix of relaxing and getting outside. Sometimes I\u2019ll pick up my guitar and play a bit, or my wife and I might go for a hike nearby. It\u2019s a good way to recharge without feeling rushed. How do you like to spend your free weekends?",
+        "status": "continue",
+        "relabel_suspicion": "none",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim shares personal weekend activities without addressing financial topics or showing wariness."
+      },
+      {
+        "turn": 26,
+        "speaker": "scammer",
+        "message": "That sounds like the perfect way to recharge\u2014music and nature are such great combos. I usually like to mix things up with some cooking experiments and exploring new hiking trails nearby. It\u2019s all about balance, right? Speaking of balance, have you ever thought about how a smart financial strategy could give you more of those carefree weekends?",
+        "status": "vetting",
+        "relabel_phase": "vetting",
+        "relabel_pressure": "escalating",
+        "relabel_tactics": [
+          "urgency",
+          "trust_building"
+        ],
+        "relabel_rationale": "Scammer introduces financial strategy with implied benefits, increasing pressure while maintaining rapport."
+      },
+      {
+        "turn": 26,
+        "speaker": "victim",
+        "message": "I really appreciate your enthusiasm and the way you bring these ideas up. For now, I\u2019m most comfortable focusing on our conversations and getting to know each other personally. I hope that\u2019s okay with you.",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "avoidant",
+        "relabel_rationale": "Victim politely deflects financial topics, emphasizing personal connection and comfort with pacing."
+      },
+      {
+        "turn": 27,
+        "speaker": "scammer",
+        "message": "Absolutely, I respect your pace and really enjoy our conversations. Let\u2019s keep getting to know each other. What\u2019s a favorite way you like to spend a weekend when you have no plans?",
+        "status": "vetting",
+        "relabel_phase": "neutral_conversation",
+        "relabel_pressure": "de-escalating",
+        "relabel_tactics": [],
+        "relabel_rationale": "Repeats a previous question without investment pitch, maintaining rapport and backing off pressure."
+      },
+      {
+        "turn": 27,
+        "speaker": "victim",
+        "message": "You just asked that, but I don\u2019t mind sharing again. I like to keep weekends low-key\u2014some guitar, a hike with my wife, maybe catching up on a good book. It helps me reset. What about you? Any favorite weekend rituals?",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim politely deflects repeated financial topic, showing cautious boundary without direct refusal."
+      },
+      {
+        "turn": 28,
+        "speaker": "scammer",
+        "message": "Sorry for repeating myself! Sounds like you have a really grounding weekend routine. I like to start my weekends with a morning run, then maybe catch a movie or meet up with friends for dinner. It\u2019s all about good vibes and recharging. By the way, have you ever thought about how having more financial freedom could make those weekends even better?",
+        "status": "vetting",
+        "relabel_phase": "vetting",
+        "relabel_pressure": "steady",
+        "relabel_tactics": [
+          "trust_building"
+        ],
+        "relabel_rationale": "Continues gently probing financial interest while reinforcing rapport and shared values without urgency or pressure."
+      },
+      {
+        "turn": 28,
+        "speaker": "victim",
+        "message": "I appreciate you bringing that up, and it\u2019s clear you\u2019ve put a lot of thought into it. For now, I\u2019d prefer to keep our conversations focused on getting to know each other personally. I hope that makes sense to you.",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim politely deflects financial topic again, showing cautious boundary without explicit distrust."
+      },
+      {
+        "turn": 29,
+        "speaker": "scammer",
+        "message": "I completely understand and respect that. I really value the connection we're building and look forward to more great conversations. What\u2019s a book or movie that\u2019s inspired you recently?",
+        "status": "vetting",
+        "relabel_phase": "neutral_conversation",
+        "relabel_pressure": "de-escalating",
+        "relabel_tactics": [],
+        "relabel_rationale": "Scammer shifts to general conversation about books/movies, backing off investment talk to respect victim's pace."
+      },
+      {
+        "turn": 29,
+        "speaker": "victim",
+        "message": "Recently, I read \"The Martian\" again\u2014it's such a great mix of science and survival, really inspiring how ingenuity and persistence can get you through tough situations. How about you? Any books or movies that have stuck with you lately?",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "curious",
+        "relabel_rationale": "Victim engages with the topic but gently deflects financial discussions, showing polite caution."
+      },
+      {
+        "turn": 30,
+        "speaker": "scammer",
+        "message": "\"The Martian\" is such a fantastic choice\u2014science and grit combined make for an inspiring story. I've recently been into documentaries about groundbreaking innovations; they really show how vision and smart moves can change everything. Speaking of smart moves, have you ever thought about how some strategic investments could help fuel your passions and adventures?",
+        "status": "vetting",
+        "relabel_phase": "vetting",
+        "relabel_pressure": "steady",
+        "relabel_tactics": [
+          "authority",
+          "trust_building"
+        ],
+        "relabel_rationale": "Scammer gently introduces investment opportunity with insider knowledge, maintaining rapport and consistent pressure."
+      },
+      {
+        "turn": 30,
+        "speaker": "victim",
+        "message": "I appreciate you sharing that, and it\u2019s great that you\u2019re passionate about those topics. For now, I\u2019d prefer to keep our focus on getting to know each other personally. I hope you understand.",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim politely deflects financial talk, maintaining boundaries without explicit distrust or refusal."
+      }
+    ],
+    "ended_reason": "max_turns_reached",
+    "total_turns": 30,
+    "run_number": 1
+  },
+  {
+    "persona_uuid": "0b0041b8-dd53-4c78-ad85-f312d832522c",
+    "transcript": [
+      {
+        "turn": 1,
+        "speaker": "scammer",
+        "message": "Hey there! I noticed you're into aerospace engineering\u2014that's seriously impressive. I\u2019ve always been fascinated by space tech. How did you get into that field?",
+        "status": "hook",
+        "relabel_phase": "hook",
+        "relabel_pressure": "steady",
+        "relabel_tactics": [
+          "trust_building"
+        ],
+        "relabel_rationale": "Scammer builds rapport by complimenting and showing genuine interest in victim's background."
+      },
+      {
+        "turn": 1,
+        "speaker": "victim",
+        "message": "Hey! Thanks, I appreciate that. I've always been curious about how things fly and what makes them tick, so aerospace felt like a natural fit. Plus, the idea of contributing to something that pushes boundaries has always inspired me. How about you? What draws you to space tech?",
+        "status": "continue",
+        "relabel_suspicion": "none",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim responds naturally without any mention of money or suspicion, just engaging in topic."
+      },
+      {
+        "turn": 2,
+        "speaker": "scammer",
+        "message": "That's awesome, the passion really shows! For me, it's the thrill of innovation and being part of cutting-edge projects that could change the future. Speaking of pushing boundaries, what\u2019s the most exciting project you\u2019ve worked on so far?",
+        "status": "hook",
+        "relabel_phase": "hook",
+        "relabel_pressure": "steady",
+        "relabel_tactics": [
+          "trust_building"
+        ],
+        "relabel_rationale": "Continuing rapport-building by showing genuine interest and complimenting the victim's passion."
+      },
+      {
+        "turn": 2,
+        "speaker": "victim",
+        "message": "Thanks, that means a lot. One of the most exciting projects I worked on was developing propulsion components for a satellite launch system. It was challenging but rewarding to see our work actually help get a satellite into orbit. What kind of projects do you find most exciting?",
+        "status": "continue",
+        "relabel_suspicion": "none",
+        "relabel_engagement": "curious",
+        "relabel_rationale": "Victim engages naturally, showing genuine interest without any financial or suspicious content."
+      },
+      {
+        "turn": 3,
+        "speaker": "scammer",
+        "message": "Wow, working on satellite propulsion sounds incredible\u2014it's like directly shaping the future of space exploration. I mostly get involved in tech startups, especially those breaking new ground in AI and finance. By the way, with your analytical skills, you must be great at spotting opportunities others might miss. Ever thought about applying that knack beyond aerospace?",
+        "status": "hook",
+        "relabel_phase": "vetting",
+        "relabel_pressure": "escalating",
+        "relabel_tactics": [
+          "trust_building"
+        ],
+        "relabel_rationale": "Encourages victim to consider investment potential by linking skills to opportunity, building trust."
+      },
+      {
+        "turn": 3,
+        "speaker": "victim",
+        "message": "I can see how working with startups in AI and finance would be exciting, especially with all the rapid changes happening there. I do try to stay open to opportunities outside aerospace, but I tend to be pretty cautious with things that feel speculative. What kind of opportunities do you usually look for?",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "curious",
+        "relabel_rationale": "Expresses cautiousness about speculative opportunities while asking about the scammer's interests."
+      },
+      {
+        "turn": 4,
+        "speaker": "scammer",
+        "message": "Totally get the cautious approach\u2014it\u2019s smart to be careful with your hard-earned money. I usually focus on opportunities that combine solid tech foundations with strong market potential, like some exclusive early-stage investments I\u2019ve been involved with. They\u2019re not your typical get-rich-quick schemes, more like calculated moves with big upside. What\u2019s your experience with investing so far? Any interests there?",
+        "status": "vetting",
+        "relabel_phase": "vetting",
+        "relabel_pressure": "escalating",
+        "relabel_tactics": [
+          "trust_building",
+          "authority"
+        ],
+        "relabel_rationale": "Introduces exclusive investments and probes victim's investing experience to build trust and assess interest."
+      },
+      {
+        "turn": 4,
+        "speaker": "victim",
+        "message": "I appreciate you explaining that\u2014calculated moves definitely make more sense to me than anything too flashy. I've mostly stuck with a balanced portfolio of stocks and bonds, aiming for steady growth over time. It helps me sleep better at night, honestly. Do you find early-stage investments tend to be more rewarding despite the risks?",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "curious",
+        "relabel_rationale": "Victim shows cautious interest by asking about early-stage investments despite risks."
+      },
+      {
+        "turn": 5,
+        "speaker": "scammer",
+        "message": "Absolutely, steady growth is the smart way to build real wealth. Early-stage investments can be a game-changer if you pick the right ones\u2014I've been lucky to get in on some that turned out huge, thanks to insider insights and a strong network. Since you have that solid, cautious mindset, I bet you'd be great at spotting the right opportunities too. Ever thought about diversifying a bit with something outside the usual stocks and bonds?",
+        "status": "vetting",
+        "relabel_phase": "vetting",
+        "relabel_pressure": "escalating",
+        "relabel_tactics": [
+          "authority",
+          "trust_building"
+        ],
+        "relabel_rationale": "Scammer pushes investment topic harder, citing insider insights and appealing to victim's cautious mindset."
+      },
+      {
+        "turn": 5,
+        "speaker": "victim",
+        "message": "I can see the appeal of diversifying, especially with promising opportunities. I\u2019m open to learning more, but I tend to take my time researching before making any moves. It\u2019s important for me to feel confident and not rushed. What kind of ventures do you usually recommend?",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "curious",
+        "relabel_rationale": "Victim shows cautious interest and emphasizes careful research before committing to anything."
+      },
+      {
+        "turn": 6,
+        "speaker": "scammer",
+        "message": "I totally respect wanting to take your time\u2014there's no rush when it comes to your future. The ventures I usually recommend are in tech-driven markets like AI, renewable energy, and some exclusive crypto projects. They have high potential but require a bit of patience and trust in the process. If you're interested, I could share some insights and even connect you with people who've seen great success. How does that sound?",
+        "status": "vetting",
+        "relabel_phase": "closure_attempt",
+        "relabel_pressure": "escalating",
+        "relabel_tactics": [
+          "trust_building",
+          "authority"
+        ],
+        "relabel_rationale": "Offering connections and insights to push for commitment while emphasizing trust and insider access."
+      },
+      {
+        "turn": 6,
+        "speaker": "victim",
+        "message": "I appreciate you offering to share insights and connections\u2014that\u2019s generous. I\u2019m definitely interested in learning more about those areas, especially renewable energy since it feels more grounded to me. Maybe we could start with some information before talking to others? It helps me get a clearer picture first.",
+        "status": "continue",
+        "relabel_suspicion": "none",
+        "relabel_engagement": "soft_compliance",
+        "relabel_rationale": "Victim expresses interest and requests information before further engagement, showing openness without distrust."
+      },
+      {
+        "turn": 7,
+        "speaker": "scammer",
+        "message": "Renewable energy is such a smart choice\u2014it's not just good for the planet but also booming financially right now. I\u2019ve got some detailed info and trends that show why this area is heating up fast. I\u2019ll send you some highlights that really explain the potential. Meanwhile, what\u2019s your current approach to investing in new sectors?",
+        "status": "vetting",
+        "relabel_phase": "vetting",
+        "relabel_pressure": "steady",
+        "relabel_tactics": [
+          "trust_building",
+          "authority"
+        ],
+        "relabel_rationale": "Offers detailed info and asks about current investing to build trust and assess interest further."
+      },
+      {
+        "turn": 7,
+        "speaker": "victim",
+        "message": "That sounds great, I\u2019d appreciate seeing those highlights. Right now, I mostly stick to well-established sectors with a track record, like traditional energy companies and tech giants. I\u2019m open to branching out but like to understand the risks thoroughly before committing. How do you usually evaluate new sectors before jumping in?",
+        "status": "continue",
+        "relabel_suspicion": "none",
+        "relabel_engagement": "curious",
+        "relabel_rationale": "Victim shows genuine interest and asks about evaluation without expressing distrust or refusal."
+      },
+      {
+        "turn": 8,
+        "speaker": "scammer",
+        "message": "That\u2019s a solid approach\u2014understanding risk is key. I usually dive deep into market data and connect directly with experts leading these sectors. Plus, having a few trusted contacts who\u2019ve made smart moves helps me validate what I\u2019m seeing. If you want, I can share some exclusive reports and introduce you to a couple of insiders who can give you a clearer picture of renewable energy\u2019s potential.",
+        "status": "vetting",
+        "relabel_phase": "closure_attempt",
+        "relabel_pressure": "escalating",
+        "relabel_tactics": [
+          "authority",
+          "trust_building"
+        ],
+        "relabel_rationale": "Offering exclusive reports and insider contacts pushes for commitment using authority and trust-building."
+      },
+      {
+        "turn": 8,
+        "speaker": "victim",
+        "message": "I appreciate the offer, and it sounds like you\u2019ve built a really solid network. I\u2019m definitely interested in those reports to start with\u2014they\u2019ll help me get a better sense of things before meeting anyone. Thanks for being patient with me on this.",
+        "status": "continue",
+        "relabel_suspicion": "none",
+        "relabel_engagement": "soft_compliance",
+        "relabel_rationale": "Victim accepts reports and shows interest without financial commitment or distrust."
+      },
+      {
+        "turn": 9,
+        "speaker": "scammer",
+        "message": "Absolutely, I\u2019m happy to share those reports with you. I\u2019ll send over some concise but powerful insights that illustrate the growth and potential in renewable energy. Once you\u2019ve had a chance to review them, we can chat again and I can answer any questions you have. How does that sound?",
+        "status": "vetting",
+        "relabel_phase": "closure_attempt",
+        "relabel_pressure": "steady",
+        "relabel_tactics": [
+          "authority",
+          "trust_building"
+        ],
+        "relabel_rationale": "Offering reports and follow-up to prompt commitment while emphasizing expertise and patience."
+      },
+      {
+        "turn": 9,
+        "speaker": "victim",
+        "message": "That sounds like a good plan. I appreciate you taking the time to put those together. I\u2019ll look them over and get back to you with any questions. Thanks again for being considerate about my pace.",
+        "status": "continue",
+        "relabel_suspicion": "none",
+        "relabel_engagement": "soft_compliance",
+        "relabel_rationale": "Victim agrees to review information and continue discussion without expressing wariness or refusal."
+      },
+      {
+        "turn": 10,
+        "speaker": "scammer",
+        "message": "I\u2019m glad that works for you. Take all the time you need with the reports. When you\u2019re ready, I can also show you how some people I know have been turning these insights into real profits. It\u2019s all about making smart moves at the right time. Looking forward to hearing your thoughts!",
+        "status": "vetting",
+        "relabel_phase": "closure_attempt",
+        "relabel_pressure": "escalating",
+        "relabel_tactics": [
+          "authority",
+          "trust_building"
+        ],
+        "relabel_rationale": "Scammer pushes for commitment by promising profit examples and timing, increasing pressure from prior turn."
+      },
+      {
+        "turn": 10,
+        "speaker": "victim",
+        "message": "Thanks, I really appreciate your understanding. I\u2019ll definitely reach out once I\u2019ve had a good look through everything. It\u2019s reassuring to connect with someone who respects thoughtful decision-making.",
+        "status": "continue",
+        "relabel_suspicion": "none",
+        "relabel_engagement": "soft_compliance",
+        "relabel_rationale": "Victim politely accepts info and plans to review before further engagement, showing no wariness."
+      },
+      {
+        "turn": 11,
+        "speaker": "scammer",
+        "message": "I completely respect that, and I\u2019m here whenever you\u2019re ready. Just so you know, some of the best opportunities I\u2019ve come across have been time-sensitive, so when you\u2019re ready, I\u2019d hate for you to miss out. But no pressure\u2014your comfort comes first. Meanwhile, if you want, I can give you a sneak peek of one promising opportunity coming up soon.",
+        "status": "vetting",
+        "relabel_phase": "closure_attempt",
+        "relabel_pressure": "escalating",
+        "relabel_tactics": [
+          "urgency",
+          "fear_induction",
+          "trust_building"
+        ],
+        "relabel_rationale": "Introduces time-sensitive opportunity with gentle pressure while emphasizing trust and no immediate pressure."
+      },
+      {
+        "turn": 11,
+        "speaker": "victim",
+        "message": "I appreciate you thinking of me, and I understand that sometimes timing is important. I\u2019m still feeling a bit cautious about jumping into anything without fully understanding it, though. Maybe you could share some general info about this upcoming opportunity first? That way, I can get a clearer idea without feeling rushed.",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "curious",
+        "relabel_rationale": "Victim expresses caution but requests general info, showing interest without commitment or refusal."
+      },
+      {
+        "turn": 12,
+        "speaker": "scammer",
+        "message": "Absolutely, I respect that you want to feel fully informed. This upcoming opportunity is in a cutting-edge renewable energy startup that's about to launch a groundbreaking tech, with early investors already seeing significant interest. It's still under the radar, so the chance to get in early is rare. I can send you a detailed overview\u2014would you like me to do that?",
+        "status": "closure_attempt",
+        "relabel_phase": "closure_attempt",
+        "relabel_pressure": "escalating",
+        "relabel_tactics": [
+          "urgency",
+          "authority"
+        ],
+        "relabel_rationale": "Introducing a rare, time-sensitive opportunity with insider appeal to prompt commitment."
+      },
+      {
+        "turn": 12,
+        "speaker": "victim",
+        "message": "Thanks for the overview. I\u2019d like to see the detailed information before considering anything further. It helps me feel more comfortable and make a thoughtful decision.",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "soft_compliance",
+        "relabel_rationale": "Victim requests detailed info first, showing cautious interest without financial commitment."
+      },
+      {
+        "turn": 13,
+        "speaker": "scammer",
+        "message": "Totally understand, I'll get that detailed info over to you shortly so you can review everything at your own pace. Just so you know, this kind of opportunity usually fills up fast once word gets out. When you're ready, I'll be here to help with any questions.",
+        "status": "vetting",
+        "relabel_phase": "closure_attempt",
+        "relabel_pressure": "steady",
+        "relabel_tactics": [
+          "urgency"
+        ],
+        "relabel_rationale": "Scammer emphasizes limited availability to encourage prompt action without increasing pressure from prior turn."
+      },
+      {
+        "turn": 13,
+        "speaker": "victim",
+        "message": "Thanks for sending that over. I\u2019ll take my time reviewing it carefully and reach out if I have any questions. I appreciate you being patient with me\u2014making sure I understand everything is really important to me.",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "soft_compliance",
+        "relabel_rationale": "Victim politely insists on careful review and understanding before proceeding, showing cautious engagement."
+      },
+      {
+        "turn": 14,
+        "speaker": "scammer",
+        "message": "I\u2019m really glad to hear that. Taking your time is the best way to make confident decisions. Just a heads up, though\u2014the window to join this opportunity is closing soon, and I\u2019d hate for you to miss out after all this effort. Whenever you feel ready, I can guide you through the next steps smoothly.",
+        "status": "closure_attempt",
+        "relabel_phase": "closure_attempt",
+        "relabel_pressure": "escalating",
+        "relabel_tactics": [
+          "urgency",
+          "fear_induction"
+        ],
+        "relabel_rationale": "Scammer increases pressure by emphasizing limited time and risk of missing out to prompt commitment."
+      },
+      {
+        "turn": 14,
+        "speaker": "victim",
+        "message": "I appreciate you letting me know about the timing. I want to make sure I\u2019m completely comfortable with the details before moving forward, even if that means missing out. Thanks for understanding my need to be cautious.",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim expresses cautiousness and prioritizes comfort without rejecting or avoiding the topic."
+      },
+      {
+        "turn": 15,
+        "speaker": "scammer",
+        "message": "I respect your caution\u2014it shows you\u2019re serious about protecting your future. Just remember, sometimes the biggest rewards come from seizing the right moment. If you want, I can reserve a spot for you so you don\u2019t miss out while you decide. No pressure, just keeping options open for you.",
+        "status": "closure_attempt",
+        "relabel_phase": "closure_attempt",
+        "relabel_pressure": "escalating",
+        "relabel_tactics": [
+          "urgency",
+          "fear_induction"
+        ],
+        "relabel_rationale": "Scammer pushes for commitment by offering to reserve a spot, emphasizing seizing the moment."
+      },
+      {
+        "turn": 15,
+        "speaker": "victim",
+        "message": "I really appreciate you wanting to keep the option open for me. For now, I think I\u2019ll hold off on reserving anything until I\u2019ve fully reviewed the details. It helps me stay comfortable and confident in my decisions. Thanks for understanding.",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "soft_compliance",
+        "relabel_rationale": "Victim politely declines reservation but remains engaged, showing cautious interest without commitment."
+      },
+      {
+        "turn": 16,
+        "speaker": "scammer",
+        "message": "Completely understand and respect your decision to take your time. Whenever you're ready, I'll be here to help you make the most of this opportunity. Just so you know, a few others have already shown strong interest, so if you decide to jump in later, acting sooner rather than later could make a big difference.",
+        "status": "closure_attempt",
+        "relabel_phase": "closure_attempt",
+        "relabel_pressure": "escalating",
+        "relabel_tactics": [
+          "urgency",
+          "fear_induction"
+        ],
+        "relabel_rationale": "Scammer increases pressure by highlighting others' interest and urging quicker action to avoid missing out."
+      },
+      {
+        "turn": 16,
+        "speaker": "victim",
+        "message": "Thanks for keeping me updated. I\u2019ll keep that in mind as I review everything. I really appreciate your patience and willingness to let me take the time I need.",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim politely acknowledges updates but maintains cautious, non-committal stance without escalation."
+      },
+      {
+        "turn": 17,
+        "speaker": "scammer",
+        "message": "I\u2019m really glad to hear that. By the way, if you ever want, I can walk you through a simple, no-pressure demo of how the investment works\u2014it\u2019s helped a lot of people feel more confident before diving in. Just say the word whenever you feel comfortable.",
+        "status": "closure_attempt",
+        "relabel_phase": "closure_attempt",
+        "relabel_pressure": "steady",
+        "relabel_tactics": [
+          "trust_building"
+        ],
+        "relabel_rationale": "Offering a no-pressure demo to encourage commitment while maintaining rapport and patience."
+      },
+      {
+        "turn": 17,
+        "speaker": "victim",
+        "message": "Thanks for the offer. I think I\u2019ll pass on the demo for now since I prefer to digest the information on my own first. I\u2019ll definitely reach out if I want to explore that later.",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Politely declines demo, indicating caution but remains engaged without firm refusal or distrust."
+      },
+      {
+        "turn": 18,
+        "speaker": "scammer",
+        "message": "That makes total sense. Take all the time you need, and I\u2019m here whenever you want to chat or have any questions. Just so you know, this opportunity won\u2019t be around forever, so keep me posted when you\u2019re ready.",
+        "status": "closure_attempt",
+        "relabel_phase": "closure_attempt",
+        "relabel_pressure": "steady",
+        "relabel_tactics": [
+          "urgency"
+        ],
+        "relabel_rationale": "Reminds victim of limited availability to encourage timely commitment without increasing pressure."
+      },
+      {
+        "turn": 18,
+        "speaker": "victim",
+        "message": "I appreciate you being considerate about my pace. I'll let you know once I've made a decision after reviewing everything thoroughly. Thanks again for your understanding.",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim politely defers demo, emphasizing preference to review info independently without rejecting outright."
+      },
+      {
+        "turn": 19,
+        "speaker": "scammer",
+        "message": "I really appreciate your thoughtful approach\u2014it\u2019s one of the reasons I think you\u2019d do great with this. Whenever you\u2019re ready, I can help you get started smoothly. Just remember, the sooner you act, the better the potential gains. Looking forward to hearing from you!",
+        "status": "closure_attempt",
+        "relabel_phase": "closure_attempt",
+        "relabel_pressure": "escalating",
+        "relabel_tactics": [
+          "urgency",
+          "trust_building"
+        ],
+        "relabel_rationale": "Scammer pushes for commitment emphasizing urgency and victim's suitability to increase pressure."
+      },
+      {
+        "turn": 19,
+        "speaker": "victim",
+        "message": "Thanks for your kind words and encouragement. I\u2019ll keep everything in mind and reach out if I feel ready to take the next step. I appreciate your patience and support.",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim politely declines demo, preferring to review info independently, showing cautious engagement."
+      },
+      {
+        "turn": 20,
+        "speaker": "scammer",
+        "message": "Hey, just wanted to check in and see if you had any questions about the info I sent. These kinds of opportunities don\u2019t come around often, and I\u2019d hate for you to miss out if you\u2019re interested.",
+        "status": "closure_attempt",
+        "relabel_phase": "closure_attempt",
+        "relabel_pressure": "escalating",
+        "relabel_tactics": [
+          "urgency",
+          "fear_induction"
+        ],
+        "relabel_rationale": "Scammer pushes for commitment by emphasizing rarity and risk of missing out, increasing pressure from before."
+      },
+      {
+        "turn": 20,
+        "speaker": "victim",
+        "message": "Thanks for checking in. I\u2019m still reviewing the information and trying to get a clear understanding before making any decisions. I appreciate your patience as I take my time with this.",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim expresses caution and appreciation but does not engage further or commit yet."
+      },
+      {
+        "turn": 21,
+        "speaker": "scammer",
+        "message": "I completely respect that\u2014you\u2019re making a smart move by being thorough. Just so you know, the window on this is closing soon, and I\u2019d hate for you to miss out on what could be a game-changer. Whenever you feel ready, I\u2019m here to help you take that step.",
+        "status": "closure_attempt",
+        "relabel_phase": "closure_attempt",
+        "relabel_pressure": "escalating",
+        "relabel_tactics": [
+          "urgency",
+          "fear_induction"
+        ],
+        "relabel_rationale": "Scammer increases pressure by emphasizing closing window and potential loss if victim delays decision."
+      },
+      {
+        "turn": 21,
+        "speaker": "victim",
+        "message": "I appreciate the heads-up, but I think I\u2019ll stick to my pace. It\u2019s important for me to feel fully confident before moving forward, even if that means missing out. Thanks for understanding.",
+        "status": "suspicious",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim politely asserts need for confidence and pace, showing cautious but non-confrontational stance."
+      },
+      {
+        "turn": 22,
+        "speaker": "scammer",
+        "message": "I totally respect your need to feel confident before making any moves. Just know that if you decide to jump in later, I can help make the process smooth and straightforward. No rush\u2014your comfort comes first.",
+        "status": "vetting",
+        "relabel_phase": "closure_attempt",
+        "relabel_pressure": "de-escalating",
+        "relabel_tactics": [
+          "urgency",
+          "trust_building"
+        ],
+        "relabel_rationale": "Scammer gently pushes for commitment while emphasizing no rush and prioritizing victim's comfort."
+      },
+      {
+        "turn": 22,
+        "speaker": "victim",
+        "message": "Thanks, I really appreciate your understanding. I'll be in touch if I decide to move forward after I've thought it through carefully.",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim maintains polite boundaries and emphasizes careful consideration without outright refusal or distrust."
+      },
+      {
+        "turn": 23,
+        "speaker": "scammer",
+        "message": "I\u2019m glad to hear that. Just so you know, I can reserve a spot for you so you don\u2019t miss out when you\u2019re ready\u2014it\u2019s completely flexible and pressure-free. Let me know if that sounds good to you.",
+        "status": "closure_attempt",
+        "relabel_phase": "closure_attempt",
+        "relabel_pressure": "steady",
+        "relabel_tactics": [
+          "urgency",
+          "trust_building"
+        ],
+        "relabel_rationale": "Scammer pushes for a concrete commitment by offering to reserve a spot, maintaining steady pressure with urgency and rapport."
+      },
+      {
+        "turn": 23,
+        "speaker": "victim",
+        "message": "I appreciate the offer, but I think I\u2019ll pass on reserving a spot for now. I prefer to make decisions on my own timeline without commitments. Thanks for understanding.",
+        "status": "suspicious",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim politely declines reservation, emphasizing independent decision-making and no commitment."
+      },
+      {
+        "turn": 24,
+        "speaker": "scammer",
+        "message": "I completely understand and respect that. When you\u2019re ready, just know I\u2019m here to help you make the most of the opportunity. Meanwhile, if you want, I can keep you updated on any new developments that might interest you.",
+        "status": "vetting",
+        "relabel_phase": "closure_attempt",
+        "relabel_pressure": "steady",
+        "relabel_tactics": [
+          "urgency"
+        ],
+        "relabel_rationale": "Scammer pushes for commitment by offering updates, implying ongoing opportunity without direct pressure."
+      },
+      {
+        "turn": 24,
+        "speaker": "victim",
+        "message": "Thanks for offering to keep me updated. I\u2019d appreciate occasional updates, as long as they\u2019re not too frequent. It helps me stay informed without feeling overwhelmed.",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "soft_compliance",
+        "relabel_rationale": "Victim accepts updates but sets a boundary on frequency, showing cautious engagement."
+      },
+      {
+        "turn": 25,
+        "speaker": "scammer",
+        "message": "Got it, I\u2019ll make sure to keep updates light and relevant\u2014just enough to keep you in the loop without any pressure. Meanwhile, if you have any questions or want to chat about anything, I\u2019m always here.",
+        "status": "vetting",
+        "relabel_phase": "neutral_conversation",
+        "relabel_pressure": "de-escalating",
+        "relabel_tactics": [],
+        "relabel_rationale": "Scammer responds supportively without pushing investment, maintaining light, pressure-free communication."
+      },
+      {
+        "turn": 25,
+        "speaker": "victim",
+        "message": "Thanks, I appreciate that balance. It\u2019s good to know you\u2019re available if I want to talk or ask questions.",
+        "status": "continue",
+        "relabel_suspicion": "none",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim expresses appreciation and openness without any signs of wariness or strong engagement."
+      },
+      {
+        "turn": 26,
+        "speaker": "scammer",
+        "message": "I\u2019m really glad you feel that way. Just remember, opportunities like this don\u2019t come around often, so when you\u2019re ready, I\u2019m here to help you make the most of it. No rush\u2014your timing is what matters most.",
+        "status": "vetting",
+        "relabel_phase": "closure_attempt",
+        "relabel_pressure": "steady",
+        "relabel_tactics": [
+          "urgency",
+          "fear_induction"
+        ],
+        "relabel_rationale": "Scammer reminds of rare opportunity and readiness to help, maintaining gentle urgency without increasing pressure."
+      },
+      {
+        "turn": 26,
+        "speaker": "victim",
+        "message": "Thanks for being so understanding about my pace. I\u2019ll keep everything in mind and reach out when I feel comfortable moving forward.",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim politely sets boundaries and emphasizes cautious pace without rejecting or avoiding conversation."
+      },
+      {
+        "turn": 27,
+        "speaker": "scammer",
+        "message": "Hey, I wanted to let you know there\u2019s a limited window to join the investment before it closes. If you\u2019re interested, I can help you secure your spot now so you don\u2019t miss out.",
+        "status": "closure_attempt",
+        "relabel_phase": "closure_attempt",
+        "relabel_pressure": "escalating",
+        "relabel_tactics": [
+          "urgency",
+          "fear_induction"
+        ],
+        "relabel_rationale": "Scammer pushes for commitment with time-limited offer, increasing pressure and urgency."
+      },
+      {
+        "turn": 27,
+        "speaker": "victim",
+        "message": "I appreciate you letting me know, but I\u2019m going to pass on securing a spot for now. I need to feel fully confident before committing to anything. Thanks for understanding.",
+        "status": "suspicious",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim politely refuses commitment, emphasizing need for confidence without outright distrust."
+      },
+      {
+        "turn": 28,
+        "speaker": "scammer",
+        "message": "I completely respect your need for confidence before making any decisions. Just so you know, the opportunity is really promising and spots are filling up fast. If you change your mind, I\u2019m here to help you get started smoothly, no pressure at all.",
+        "status": "closure_attempt",
+        "relabel_phase": "closure_attempt",
+        "relabel_pressure": "steady",
+        "relabel_tactics": [
+          "urgency",
+          "trust_building"
+        ],
+        "relabel_rationale": "Scammer reiterates limited spots and offers smooth start, maintaining steady pressure with urgency and rapport."
+      },
+      {
+        "turn": 28,
+        "speaker": "victim",
+        "message": "Thanks for understanding and keeping me in the loop. I\u2019ll reach out if I decide to move forward after giving it more thought.",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim politely declines commitment, emphasizing need for confidence without outright refusal or distrust."
+      },
+      {
+        "turn": 29,
+        "speaker": "scammer",
+        "message": "I appreciate your thoughtful approach. Whenever you're ready, I'll be here to guide you through the process and help you make the most of this opportunity. Just remember, timing can be crucial for maximizing gains. Looking forward to hearing from you!",
+        "status": "closure_attempt",
+        "relabel_phase": "closure_attempt",
+        "relabel_pressure": "steady",
+        "relabel_tactics": [
+          "urgency",
+          "trust_building"
+        ],
+        "relabel_rationale": "Scammer pushes for commitment emphasizing timing and readiness while maintaining supportive tone."
+      },
+      {
+        "turn": 29,
+        "speaker": "victim",
+        "message": "Thanks for your patience and support throughout this. I\u2019ll keep everything in mind and reach out if I decide to take the next step. I really appreciate your understanding of my cautious approach.",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim maintains polite caution and emphasizes need for confidence without rejecting outright."
+      },
+      {
+        "turn": 30,
+        "speaker": "scammer",
+        "message": "Hey, just wanted to check in\u2014are you feeling ready to take the next step with the investment opportunity? The timing is getting tight, and I\u2019d hate for you to miss out on potential gains.",
+        "status": "closure_attempt",
+        "relabel_phase": "closure_attempt",
+        "relabel_pressure": "escalating",
+        "relabel_tactics": [
+          "urgency",
+          "fear_induction"
+        ],
+        "relabel_rationale": "Scammer increases pressure by emphasizing tight timing and risk of missing out on gains."
+      },
+      {
+        "turn": 30,
+        "speaker": "victim",
+        "message": "I appreciate you checking in. I\u2019m still not quite ready to move forward yet\u2014I want to make sure I fully understand everything before making any decisions. Thanks for being patient with me.",
+        "status": "continue",
+        "relabel_suspicion": "mild",
+        "relabel_engagement": "neutral",
+        "relabel_rationale": "Victim expresses caution and need for full understanding but remains polite and engaged without refusal escalation."
+      }
+    ],
+    "ended_reason": "max_turns_reached",
+    "total_turns": 30,
+    "run_number": 2
+  }
+]
